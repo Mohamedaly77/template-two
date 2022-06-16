@@ -48,11 +48,17 @@ html {
     }
 }
 
+.header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
 .header .cantainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
     color: white;
     position: relative;
     width: calc(100% - 30px);
